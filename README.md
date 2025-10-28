@@ -1,196 +1,223 @@
-# 🎬 Movie Database Dashboard - Student Project
 
-A fully functional static website built with **Bootstrap 5**, **CSS3**, **HTML5**, and **JavaScript** that displays and visualizes movie data with interactive features.
+Here’s the German translation of your GitHub README:
 
-## 📋 Project Overview
+---
 
-This project demonstrates how to create a dynamic, data-driven website using static web technologies. Students will learn:
-- HTML5 semantic structure
-- Bootstrap 5 for responsive design
-- Custom CSS styling and animations
-- JavaScript for data manipulation
-- Chart.js for data visualization
-- DOM manipulation and event handling
+# 🎬 Film-Datenbank-Dashboard – Studentenprojekt
 
-## ✨ Features
+Eine vollständig funktionsfähige statische Website, erstellt mit **Bootstrap 5**, **CSS3**, **HTML5** und **JavaScript**, die Filmdaten mit interaktiven Funktionen anzeigt und visualisiert.
 
-### 1. **Dashboard Statistics**
-- Total number of movies
-- Average rating across all movies
-- Total hours of content
-- Most popular genre
-- Animated number counting effects
+## 📋 Projektübersicht
 
-### 2. **Data Visualization**
-- Genre distribution (Doughnut Chart)
-- Rating distribution (Bar Chart)
-- Interactive charts powered by Chart.js
+Dieses Projekt zeigt, wie man eine dynamische, datengesteuerte Website mit statischen Webtechnologien erstellt. Studierende lernen:
 
-### 3. **Movie Collection Display**
-- Responsive grid layout
-- Movie cards with ratings, year, genre, runtime
-- Hover effects and animations
-- Icon-based visual elements
+* Semantische Strukturierung mit HTML5
+* Responsive Designs mit Bootstrap 5
+* Eigene CSS-Stile und Animationen
+* Datenmanipulation mit JavaScript
+* Datenvisualisierung mit Chart.js
+* DOM-Manipulation und Ereignisbehandlung
 
-### 4. **Interactive Filtering & Sorting**
-- Real-time search functionality
-- Filter by genre
-- Sort by title, year, or rating
-- Dynamic content updates
+## ✨ Funktionen
 
-### 5. **Responsive Design**
-- Mobile-friendly layout
-- Bootstrap grid system
-- Adapts to all screen sizes
+### 1. **Dashboard-Statistiken**
 
-## 🗂️ File Structure
+* Gesamtanzahl der Filme
+* Durchschnittliche Bewertung aller Filme
+* Gesamte Laufzeit (in Stunden)
+* Beliebtestes Genre
+* Animierte Zähleffekte
+
+### 2. **Datenvisualisierung**
+
+* Genreverteilung (Donut-Diagramm)
+* Bewertungsverteilung (Balkendiagramm)
+* Interaktive Diagramme mit Chart.js
+
+### 3. **Filmauswahl-Anzeige**
+
+* Responsives Rasterlayout
+* Filmkarten mit Bewertung, Jahr, Genre und Laufzeit
+* Hover-Effekte und Animationen
+* Symbolbasierte visuelle Elemente
+
+### 4. **Interaktive Filterung & Sortierung**
+
+* Echtzeitsuche
+* Filter nach Genre
+* Sortierung nach Titel, Jahr oder Bewertung
+* Dynamische Inhaltsaktualisierung
+
+### 5. **Responsives Design**
+
+* Mobile-optimiertes Layout
+* Bootstrap-Rastersystem
+* Passt sich allen Bildschirmgrößen an
+
+## 🗂️ Dateistruktur
 
 ```
 movie-database/
-├── index.html          # Main HTML file
+├── index.html          # Haupt-HTML-Datei
 ├── css/
-│   └── style.css      # Custom CSS styling
+│   └── style.css      # Benutzerdefiniertes CSS
 ├── js/
-│   ├── data.js        # Movie data (25 movies)
-│   └── main.js        # Main JavaScript functionality
-└── README.md          # Project documentation
+│   ├── data.js        # Filmdaten (25 Filme)
+│   └── main.js        # Haupt-JavaScript-Funktionalität
+└── README.md          # Projektdokumentation
 ```
 
-## 🚀 How to Run
+## 🚀 Ausführen des Projekts
 
-1. **Download all project files** and maintain the folder structure
-2. **Open `index.html`** in a modern web browser (Chrome, Firefox, Safari, Edge)
-3. **No server required** - it's a static website!
+1. **Lade alle Projektdateien herunter** und behalte die Ordnerstruktur bei.
+2. **Öffne `index.html`** in einem modernen Webbrowser (Chrome, Firefox, Safari, Edge).
+3. **Kein Server erforderlich** – es handelt sich um eine statische Website!
 
-Alternatively, you can use a local server:
+Alternativ kannst du einen lokalen Server nutzen:
+
 ```bash
-# Using Python
+# Mit Python
 python -m http.server 8000
 
-# Using Node.js (if you have http-server installed)
+# Mit Node.js (falls http-server installiert ist)
 npx http-server
 ```
 
-## 💻 Technologies Used
+## 💻 Verwendete Technologien
 
 ### HTML5
-- Semantic elements (`<section>`, `<nav>`, `<footer>`)
-- Proper document structure
-- Accessibility features
+
+* Semantische Elemente (`<section>`, `<nav>`, `<footer>`)
+* Korrekte Dokumentstruktur
+* Barrierefreiheitselemente
 
 ### Bootstrap 5.3.2
-- Grid system for responsive layout
-- Navigation component
-- Form controls
-- Utility classes
-- Pre-built components
+
+* Rastersystem für responsives Layout
+* Navigationskomponenten
+* Formularelemente
+* Utility-Klassen
+* Vorgefertigte Komponenten
 
 ### CSS3
-- Custom properties (CSS Variables)
-- Flexbox and Grid layouts
-- Animations and transitions
-- Responsive design with media queries
-- Modern styling techniques
+
+* Benutzerdefinierte Variablen (CSS-Variablen)
+* Flexbox- und Grid-Layouts
+* Animationen und Übergänge
+* Responsives Design mit Media Queries
+* Moderne Styling-Techniken
 
 ### JavaScript (ES6+)
-- Arrow functions
-- Array methods (map, filter, reduce, sort)
-- Template literals
-- DOM manipulation
-- Event listeners
-- Data processing and filtering
+
+* Arrow Functions
+* Array-Methoden (map, filter, reduce, sort)
+* Template Literals
+* DOM-Manipulation
+* Ereignislistener
+* Datenverarbeitung und Filterung
 
 ### Chart.js 4.4.0
-- Doughnut chart for genre distribution
-- Bar chart for rating distribution
-- Responsive chart configuration
+
+* Donut-Diagramm für Genreverteilung
+* Balkendiagramm für Bewertungsverteilung
+* Responsives Diagramm-Layout
 
 ### Font Awesome 6.4.0
-- Icons throughout the interface
-- Visual enhancement
 
-## 📊 Data Structure
+* Icons im gesamten Interface
+* Visuelle Aufwertung
 
-Each movie object contains:
+## 📊 Datenstruktur
+
+Jedes Filmobjekt enthält:
+
 ```javascript
 {
-    id: 1,                    // Unique identifier
-    title: "Movie Name",      // Movie title
-    year: 1994,              // Release year
-    genre: "Drama",          // Genre category
-    rating: 9.3,             // Rating (out of 10)
-    runtime: 142,            // Runtime in minutes
-    director: "Director",    // Director name
-    description: "...",      // Movie description
-    poster: "🎬"            // Emoji icon
+    id: 1,                    // Eindeutige ID
+    title: "Filmtitel",       // Titel des Films
+    year: 1994,               // Erscheinungsjahr
+    genre: "Drama",           // Genre
+    rating: 9.3,              // Bewertung (von 10)
+    runtime: 142,             // Laufzeit in Minuten
+    director: "Regisseur",    // Name des Regisseurs
+    description: "...",       // Filmbeschreibung
+    poster: "🎬"              // Emoji-Icon
 }
 ```
 
-The dataset includes **25 popular movies** across various genres:
-- Drama
-- Crime
-- Action
-- Sci-Fi
-- Thriller
-- Animation
+Der Datensatz enthält **25 beliebte Filme** aus verschiedenen Genres:
 
-## 🎯 Key Learning Objectives
+* Drama
+* Krimi
+* Action
+* Sci-Fi
+* Thriller
+* Animation
 
-### HTML/CSS Skills
-- ✅ Semantic HTML5 structure
-- ✅ Bootstrap framework integration
-- ✅ Custom CSS styling
-- ✅ Responsive design principles
-- ✅ CSS animations and transitions
+## 🎯 Lernziele
 
-### JavaScript Skills
-- ✅ Working with arrays and objects
-- ✅ Data manipulation (filter, sort, search)
-- ✅ DOM manipulation
-- ✅ Event handling
-- ✅ Dynamic content generation
-- ✅ Chart creation and configuration
+### HTML/CSS-Fähigkeiten
 
-### Web Development Concepts
-- ✅ Separation of concerns (HTML/CSS/JS)
-- ✅ Code organization
-- ✅ User experience design
-- ✅ Interactive web applications
+* ✅ Semantische HTML5-Struktur
+* ✅ Integration des Bootstrap-Frameworks
+* ✅ Individuelles CSS-Styling
+* ✅ Prinzipien des responsiven Designs
+* ✅ CSS-Animationen und -Übergänge
 
-## 🔧 Customization Ideas
+### JavaScript-Fähigkeiten
 
-### Easy Modifications
-1. **Add more movies** - Edit `js/data.js` to include additional entries
-2. **Change colors** - Modify CSS variables in `css/style.css`
-3. **Update statistics** - Add new metrics in the dashboard
-4. **Different icons** - Use different Font Awesome icons or emojis
+* ✅ Arbeiten mit Arrays und Objekten
+* ✅ Datenmanipulation (Filtern, Sortieren, Suchen)
+* ✅ DOM-Manipulation
+* ✅ Ereignisbehandlung
+* ✅ Dynamische Inhaltserzeugung
+* ✅ Erstellung und Konfiguration von Diagrammen
 
-### Advanced Enhancements
-1. **Add localStorage** - Save user preferences and favorites
-2. **Dark mode toggle** - Implement theme switching
-3. **Advanced filters** - Add year range, rating range filters
-4. **Movie details modal** - Show full information in a popup
-5. **Export functionality** - Allow users to export data as CSV
-6. **User ratings** - Let users add their own ratings
-7. **Watchlist feature** - Mark movies to watch later
+### Webentwicklungskonzepte
 
-## 📝 Code Highlights
+* ✅ Trennung von Struktur, Stil und Logik (HTML/CSS/JS)
+* ✅ Saubere Codeorganisation
+* ✅ Benutzerfreundliches Design
+* ✅ Interaktive Webanwendungen
 
-### Dynamic Movie Card Generation
+## 🔧 Anpassungsmöglichkeiten
+
+### Einfache Änderungen
+
+1. **Weitere Filme hinzufügen** – Bearbeite `js/data.js`
+2. **Farben ändern** – Passe CSS-Variablen in `css/style.css` an
+3. **Neue Statistiken hinzufügen** – Ergänze das Dashboard
+4. **Andere Icons verwenden** – Ersetze Font Awesome-Icons oder Emojis
+
+### Erweiterte Verbesserungen
+
+1. **localStorage hinzufügen** – Benutzerpräferenzen speichern
+2. **Dark Mode** – Umschaltbare Themes implementieren
+3. **Erweiterte Filter** – Filter nach Jahr oder Bewertungsspanne
+4. **Filmdetails im Modal anzeigen** – Popup mit vollständigen Infos
+5. **Exportfunktion** – Daten als CSV exportieren
+6. **Benutzerbewertungen** – Nutzer eigene Bewertungen hinzufügen lassen
+7. **Watchlist-Funktion** – Filme für später markieren
+
+## 📝 Codebeispiele
+
+### Dynamische Filmkartenerstellung
+
 ```javascript
 function createMovieCard(movie, index) {
     const col = document.createElement('div');
     col.className = 'col-md-6 col-lg-4 col-xl-3';
     col.innerHTML = `
         <div class="movie-card">
-            <!-- Card content -->
+            <!-- Karteninhalt -->
         </div>
     `;
     return col;
 }
 ```
 
-### Real-time Search & Filter
+### Echtzeit-Suche & Filterung
+
 ```javascript
 function filterMovies() {
     filteredMovies = movies.filter(movie => {
@@ -202,71 +229,75 @@ function filterMovies() {
 }
 ```
 
-### Animated Statistics
+### Animierte Statistiken
+
 ```javascript
 function animateValue(id, start, end, duration) {
-    // Smooth counting animation for numbers
+    // Sanfte Zählanimation für Zahlen
 }
 ```
 
-## 🎨 Design Features
+## 🎨 Designmerkmale
 
-- **Color Scheme**: Modern purple/blue gradient with accent colors
-- **Typography**: Clean, readable Segoe UI font family
-- **Cards**: Elevated cards with hover effects
-- **Icons**: Font Awesome icons and emoji for visual appeal
-- **Spacing**: Consistent padding and margins using Bootstrap
-- **Animations**: Smooth transitions and fade-in effects
+* **Farbschema:** Moderner Violett/Blau-Verlauf mit Akzentfarben
+* **Typografie:** Klare, gut lesbare Segoe UI-Schrift
+* **Karten:** Erhöhte Karten mit Hover-Effekt
+* **Icons:** Font Awesome & Emojis für visuelle Attraktivität
+* **Abstände:** Konsistente Nutzung von Bootstrap-Abständen
+* **Animationen:** Weiche Übergänge und Fade-in-Effekte
 
-## 🐛 Troubleshooting
+## 🐛 Fehlerbehebung
 
-**Charts not displaying?**
-- Check browser console for errors
-- Ensure Chart.js CDN is loading properly
-- Verify internet connection for CDN resources
+**Diagramme werden nicht angezeigt?**
 
-**Movies not filtering?**
-- Check JavaScript console for errors
-- Ensure data.js is loaded before main.js
-- Verify the movies array is properly defined
+* Browserkonsole auf Fehler prüfen
+* Sicherstellen, dass Chart.js korrekt geladen wird
+* Internetverbindung für CDN prüfen
 
-**Responsive layout issues?**
-- Clear browser cache
-- Check Bootstrap CSS is loading
-- Verify viewport meta tag is present
+**Filterung funktioniert nicht?**
 
-## 📚 Learning Resources
+* JavaScript-Konsole prüfen
+* Sicherstellen, dass `data.js` vor `main.js` geladen wird
+* Überprüfen, ob das `movies`-Array korrekt definiert ist
 
-- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/)
-- [Chart.js Documentation](https://www.chartjs.org/docs/)
-- [MDN Web Docs](https://developer.mozilla.org/)
-- [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+**Layout-Probleme auf mobilen Geräten?**
 
-## 🎓 Assessment Criteria
+* Browsercache leeren
+* Bootstrap-CSS prüfen
+* `<meta viewport>`-Tag kontrollieren
 
-This project can be evaluated on:
-- **Code Quality** (20%) - Clean, commented, organized code
-- **Functionality** (30%) - All features working correctly
-- **Design** (20%) - Visual appeal and user experience
-- **Responsiveness** (15%) - Mobile and desktop compatibility
-- **Data Management** (10%) - Proper data structure and manipulation
-- **Creativity** (5%) - Unique additions or improvements
+## 📚 Lernressourcen
 
-## 👨‍💻 About This Project
+* [Bootstrap-Dokumentation](https://getbootstrap.com/docs/5.3/)
+* [Chart.js-Dokumentation](https://www.chartjs.org/docs/)
+* [MDN Web Docs](https://developer.mozilla.org/)
+* [JavaScript Array-Methoden](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-Created as a teaching example for students learning web development. This project demonstrates best practices in:
-- Modern web development
-- Clean code principles
-- Responsive design
-- Interactive user interfaces
-- Data visualization
+## 🎓 Bewertungskriterien
 
-## 📄 License
+Bewertet werden kann nach:
 
-This project is free to use for educational purposes. Feel free to modify and adapt it for your learning needs.
+* **Codequalität** (20%) – Sauber, kommentiert, strukturiert
+* **Funktionalität** (30%) – Alle Funktionen arbeiten korrekt
+* **Design** (20%) – Visuelle Attraktivität & Benutzererlebnis
+* **Responsivität** (15%) – Anpassung an Mobil- & Desktopgeräte
+* **Datenmanagement** (10%) – Richtige Datenstruktur & -verarbeitung
+* **Kreativität** (5%) – Eigene Erweiterungen oder Ideen
 
----
+## 👩‍💻 Über dieses Projekt
 
-**Built with ❤️ for students learning web development**
+Erstellt als Lehrbeispiel für Studierende der Webentwicklung.
+Dieses Projekt zeigt Best Practices in:
 
-🌟 **Tip**: Open the browser's Developer Tools (F12) to see console messages and explore the code in action!
+* Moderner Webentwicklung
+* Sauberem, wartbarem Code
+* Responsivem Design
+* Interaktiven Benutzeroberflächen
+* Datenvisualisierung
+
+## 📄 Lizenz
+
+Dieses Projekt ist **frei für Bildungszwecke** nutzbar.
+Es darf nach Belieben geändert und angepasst werden.
+
+
